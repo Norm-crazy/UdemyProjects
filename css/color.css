@@ -1,0 +1,77 @@
+.colorGame {
+	background-color: #232323;
+	margin: auto;
+	margin-top: 15px;
+	width: 85%;
+	font-family: "Montserrat", "Avenir";
+}
+
+.colortitle{
+	text-align: center;
+line-height: 1.1;
+color: white;
+background: steelblue;
+width: 100%;
+text-transform: uppercase;
+padding: 1px;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+	margin-top: -10px;
+}
+
+
+#stripe button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+}
+
+#stripe button:hover {
+	color: white;
+	background: steelblue;
+}
+
+
+#message{
+	display: inline-block;
+	width: 20%;
+}
+
+.selected {
+	color: white;
+	background: steelblue;
+}
+
+.area	{
+  width: 75%;
+  margin:20px auto;
+  height:auto;
+  background:#232323;
+  overflow:auto;
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}

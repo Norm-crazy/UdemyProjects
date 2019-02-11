@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/color.css">
+  <link rel="stylesheet" type="text/css" href="css/score.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,500" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <title>Udmey Projects</title>
+</head>
+
+<body id="gradient">
+  <div class="container" id="main">
+    <h1>Udemy's Projects.</h1>
+    <p>This page contains some of the frist projects that I learned from Udemy.</p>
+    <h3>First is the background gradient generator.</h3>
+    <input class="color1" type="color" name="color 1" value="#0000ff">
+    <input class="color2" type="color" name="color 2" value="#ed0012">
+    <h3>Current CSS Background</h3>
+    <h6 class="cssGrad"></h6>
+  </div>
+  <div class="container" id="proj">
+    <div class="row">
+    <!-- To Do List -->
+        <div class="col-12 col-md m-1" id="toDo">
+          <h1 id="h">To Do List</h1>
+          <div class="list">
+            <h1 id="listTitle">To-Do List<i class="fa fa-minus"></i></h1>
+        		<input class="listInput" id="listInput" type="text" placeholder="Add New Todo">
+        		<ul>
+        			<li><span><i class="fa fa-trash"></i></span> Go to Potions Class</li>
+        			<li><span><i class="fa fa-trash"></i></span> Buy new Robes</li>
+        			<li><span><i class="fa fa-trash"></i></span> Visit Hagrid</li>
+        		</ul>
+          </div>
+        </div>
+        <!-- Score keeper -->
+        <div class="col-12 col-md m-1" id="score">
+          <h1>Score Keeper</h1>
+          <div class="container">
+        		<h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+        		<p>Playing to: <span>5</span></p>
+        		<input class="scoreInput" type="number" min="0" max="100">
+        		<button id="p1">Player One</button>
+        		<button id="p2">Player Two</button>
+        		<button id="reset" >Reset</button>
+        	</div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="colorGame">
+        <!-- Color Game -->
+        <div class="colortitle">
+          <h1 id="colorH1">The Great
+          <br><span id="colorDisplay">RGB</span>
+          <br>Color Game.</h1>
+        </div>
+        <div id="stripe">
+           <button id="colorsReset">New Colors</button>
+           <span id="message"></span>
+           <button class="mode">Easy</button>
+           <button class="mode selected">Hard</button>
+        </div>
+        <div class="area" id="playArea">
+    	<div class="square"></div>
+    	<div class="square"></div>
+    	<div class="square"></div>
+    	<div class="square"></div>
+    	<div class="square"></div>
+    	<div class="square"></div>
+    </div>
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="script/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>

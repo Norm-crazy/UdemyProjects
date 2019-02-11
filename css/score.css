@@ -1,0 +1,36 @@
+#score{
+  background: #232526;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+}
+
+.winner {
+	color: red;
+}
+
+.scoreInput {
+  width: 85px;
+	font-size: 20px;
+}
+
+#p1, #p2, #reset{
+	padding: 10px 15px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 13px;
+margin-right: 5px;
+}
+
+@media screen and (min-width:140px) and (max-width:767.5px) {
+  #score {
+    height: 41vh;
+  }
